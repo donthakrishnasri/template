@@ -1,0 +1,101 @@
+.header{
+	background-color: #20B2AA;
+	height:120px;
+	width:100%;
+	font-family: 'Comfortaa', cursive;
+}
+.button1{
+	background-color: white;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Comfortaa', cursive;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.button{
+	background-color: white;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Comfortaa', cursive;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.logo{
+	float:left;
+}
+.navv{
+	float:right;
+	margin-right: 40px;
+}
+.container{
+	width: 100%;
+}
+.left{
+	width: 50%;
+	float:left;
+	height:70%;
+	text-align: justify;
+	font-family: 'Comfortaa', cursive;
+}
+.left p{
+	padding-right: 20px;
+}
+.right{
+	width:50%;
+	float: left;
+	height:70%;
+	text-align: justify;
+	font-family: 'Comfortaa', cursive;
+}
+img{
+	float: left;
+	height: 150px;
+	width: 200px;
+	border:2px solid #ddd;
+	border-radius: 4px;
+	margin-right: 20px;
+}
+.clear{
+	clear:both;
+}
+.footer{
+	background-color: grey;
+	height:120px;
+	width:100%;
+}
+.footer p{
+	padding-top: 50px;
+	text-align: center;
+}
+@media screen and (max-width:768px){
+	.right{
+		width:100%;
+	}
+	.left{
+		width:100%;
+	}
+	.header{
+		width: 100%;
+		height: 400px;
+	}
+	.logo{
+		width:100%;
+	}
+	.button{
+		width:82%;
+		display: block;
+		float:left;
+		margin-left:30px;
+		text-align:center;
+	}
+}
